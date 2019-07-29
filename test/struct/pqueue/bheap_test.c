@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <assert.h>
-#include "struct/bheap.h"
+#include "struct/pqueue/bheap.h"
 
 #define MIN_PRIORITY 0
 #define MAX_PRIORITY 1000

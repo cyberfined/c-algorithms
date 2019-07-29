@@ -11,5 +11,6 @@ cmake --build . --target test
 ```
 
 # Content
-* Data structures
-    * Priority queue(binary heap based)
+* data structures
+    * priority queues
+        * binary heap

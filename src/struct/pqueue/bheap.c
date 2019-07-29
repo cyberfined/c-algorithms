@@ -1,4 +1,4 @@
-#include "struct/bheap.h"
+#include "struct/pqueue/bheap.h"
 
 #include <stdlib.h>
 #include <string.h>
