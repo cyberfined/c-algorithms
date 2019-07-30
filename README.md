@@ -14,3 +14,5 @@ cmake --build . --target test
 * data structures
     * priority queues
         * binary heap
+* sorting
+    * heapsort
