@@ -7,8 +7,7 @@
 #define left(i) (i<<1)
 #define right(i) ((i<<1)+1)
 
-static inline __attribute__((always_inline))
-size_t next_power_of_two(size_t v) {
+static inline size_t next_power_of_two(size_t v) {
     v--;
     v |= v >> 1;
     v |= v >> 2;
@@ -59,7 +58,7 @@ void bheap_heapify(bheap *heap, bheap_node *node) {
     bheap_node *tmp_node;
 
     i = node->pos;
-    while(i < heap->num_nodes) {
+    for(;;) {
         l = left(i);
         r = right(i);
 
