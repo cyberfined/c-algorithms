@@ -3,16 +3,18 @@ Set of algorithms and data structures implementations
 
 # Build
 ```bash
-make build
+mkdir build
 cd build
 cmake ..
 cmake --build .
-cmake --build . --target test
+ctest
 ```
 
 # Content
 * data structures
     * priority queues
         * binary heap
+    * trees
+        * red-black tree
 * sorting
     * heapsort
