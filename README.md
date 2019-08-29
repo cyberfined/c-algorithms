@@ -16,5 +16,6 @@ ctest
         * binary heap
     * trees
         * red-black tree
+        * AVL tree
 * sorting
     * heapsort
